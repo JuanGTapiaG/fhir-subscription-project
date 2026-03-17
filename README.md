@@ -76,18 +76,18 @@ H2 Console: http://localhost:8080/h2-console (JDBC: jdbc:h2:file:./data/testdb, 
 src/main/java/com/example/fhirsubscription/
 ├── FhirSubscriptionApplication.java
 ├── config/
-│   ├── RabbitMQConfig.java
-│   └── FhirConfig.java
+│ ├── RabbitMQConfig.java
+│ └── FhirConfig.java
 ├── controller/
-│   └── PatientController.java
+│ └── PatientController.java
 ├── service/
-│   └── PatientService.java
+│ └── PatientService.java
 ├── publisher/
-│   └── NotificationPublisher.java
+│ └── NotificationPublisher.java
 ├── consumer/
-│   └── NotificationConsumer.java
+│ └── NotificationConsumer.java
 └── interceptor/
-    └── FhirNotificationInterceptor.java
+└── FhirNotificationInterceptor.java
 
 ## ❗ Solución de Problemas
 Puerto 8080 ocupado
@@ -104,5 +104,5 @@ sudo systemctl start rabbitmq-server
 ```
 
 ## 👤 Autores
-Omar Gomez
-Juan Tapia
+# Omar Gomez
+# Juan Tapia
