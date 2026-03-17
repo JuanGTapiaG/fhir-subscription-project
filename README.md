@@ -73,6 +73,7 @@ RabbitMQ: http://localhost:15672 (guest/guest)
 H2 Console: http://localhost:8080/h2-console (JDBC: jdbc:h2:file:./data/testdb, usuario: sa)
 
 ## 📁 Estructura
+```bash
 src/main/java/com/example/fhirsubscription/
 ├── FhirSubscriptionApplication.java
 ├── config/
@@ -88,6 +89,7 @@ src/main/java/com/example/fhirsubscription/
 │ └── NotificationConsumer.java
 └── interceptor/
 └── FhirNotificationInterceptor.java
+```
 
 ## ❗ Solución de Problemas
 Puerto 8080 ocupado
