@@ -106,5 +106,5 @@ sudo systemctl start rabbitmq-server
 ```
 
 ## 👤 Autores
-# Omar Gomez
-# Juan Tapia
+### Omar Gomez
+### Juan Tapia
