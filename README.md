@@ -19,4 +19,10 @@ Este proyecto implementa un sistema de suscripciones FHIR que permite a aplicaci
 - **FHIR:** HL7 FHIR R4
 - **Mensajería:** Bull, Socket.io
 - **Testing:** Jest, Supertest
-o: https://github.com/JuanGTapiaG/fhir-subscription-project
+
+## 📦 Instalación
+
+### Prerrequisitos
+```bash
+node --version  # v18.0.0 o superior
+npm --version   # v9.0.0 o superior
