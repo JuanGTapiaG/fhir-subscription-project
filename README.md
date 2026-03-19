@@ -44,6 +44,7 @@ cd fhir-subscription-project
 mvn clean compile
 mvn spring-boot:run
 ```
+## Abrir una segunda terminal
 
 ## 📡 API Endpoints
 Crear Suscripción
