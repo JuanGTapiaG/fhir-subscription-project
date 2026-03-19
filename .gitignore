@@ -17,6 +17,7 @@ build/
 .idea/
 *.swp
 *.swo
+
 *~
 
 # RabbitMQ/data
@@ -28,3 +29,6 @@ logs/
 # Sistema
 .DS_Store
 Thumbs.db
+
+data/
+*.mv.db
