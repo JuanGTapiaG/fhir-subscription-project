@@ -1,27 +1,25 @@
-# Dependencias
-node_modules/
-package-lock.json
-
-# Archivos de entorno
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
 .env
-.env.local
-.env.*.local
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# Directorios de compilación
+*.egg
+*.egg-info/
 dist/
 build/
-
-# Archivos de sistema
-.DS_Store
-Thumbs.db
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# RabbitMQ/data
+data/
+logs/
+*.pid
